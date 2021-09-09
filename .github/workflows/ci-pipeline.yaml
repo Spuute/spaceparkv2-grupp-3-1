@@ -10,5 +10,4 @@ jobs:
     - uses: actions/setup-dotnet@v1
       with: 
         dotnet-version: 5.0.x
-    - run: dotnet build SpacePark.sln
-      working-directory: ./Source/RestAPI
+    - run: cd Source cd RestAPI dotnet build
