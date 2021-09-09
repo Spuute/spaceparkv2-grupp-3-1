@@ -11,5 +11,4 @@ jobs:
       with: 
         dotnet-version: 5.0.x
     - run: cd Source 
-    - run: cd RestAPI
     - run: dotnet build
