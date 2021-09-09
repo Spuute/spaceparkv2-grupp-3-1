@@ -24,7 +24,7 @@ namespace RestApiTests
         private ICalculate _calculate = new Calculate();
 
         [Theory]
-        [InlineData("Luke Skywalkerrrrrr")]
+        [InlineData("Luke Skywalker")]
         [InlineData("Darth Vader")]
         [InlineData("Yoda")]
         [InlineData("LUKE SKYWALKER")]
